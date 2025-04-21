@@ -79,8 +79,6 @@ Pantalla OLED | Muestra los valores en tiempo real al usuario|![image](https://g
 Buzzer Pasivo | Emite sonido en caso de alerta|![image](https://github.com/user-attachments/assets/7ed74d0b-f35b-49bc-aa8b-1d033708d535)
 Led rojo | Led que enciende cuando la temperatura este fuera del rango |![image](https://github.com/user-attachments/assets/1a8042c5-6bd4-441e-bc11-6462eb254dec)
 
-
-
 ## Funcionalidad del Sistema
 El sistema está basado en una pulsera que lee parámetros como el ritmo cardíaco y la temperatura corporal. Estos datos se transmiten mediante MQTT hacia un servidor donde Node-RED:
 
@@ -137,11 +135,13 @@ Esto permite:
 https://drive.google.com/drive/folders/1vL-lAcMaFHmToQMPCNTURDCU5I9T4syF?usp=drive_link
 #### Carcasa
 https://drive.google.com/drive/folders/1MDsN1ivSvDB8vBrFrL9AF1wyVTXi7gcy?usp=sharing
+#### Link de librerias de la esp32-2432S024R para configurar en arduino
+http://pan.jczn1688.com/directlink/1/ESP32%20module/2.4inch_ESP32-2432S024.zip
 
 ## Autores
 Integrantes:
-Balderas Melchor José Antonio
-Martínez Ramírez Marco Antonio
+Balderas Melchor José Antonio//
+Martínez Ramírez Marco Antonio//
 Ruiz Rivera Juan Diego
 
 ## Autoevaluación y coevaluación
