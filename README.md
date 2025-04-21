@@ -137,8 +137,6 @@ https://drive.google.com/drive/folders/1vL-lAcMaFHmToQMPCNTURDCU5I9T4syF?usp=dri
 #### Carcasa
 https://drive.google.com/drive/folders/1MDsN1ivSvDB8vBrFrL9AF1wyVTXi7gcy?usp=sharing
 
-## Conclusión del Proyecto
-
 ## Autores
 Integrantes:
 Balderas Melchor José Antonio
