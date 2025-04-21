@@ -99,6 +99,10 @@ La interfaz fue desarrollada en Node-RED y permite:
 2.- Revisar valores individuales en tiempo real.
 3.- Observar notificaciones o alertas de salud.
 
+![image](https://github.com/user-attachments/assets/5f58b3f5-b314-4abd-b369-3daa135ad183)
+![image](https://github.com/user-attachments/assets/819bc65e-c63a-4341-bd20-c526bb4213df)
+
+
 ## Ejemplo de interfaz:
 La estructura fue diseñada para ser ligera y cómoda como una pulsera, con espacio para los sensores y pantalla OLED.
 ![image](https://github.com/user-attachments/assets/99e2e0aa-f90b-4f84-9ba7-156acf12d8fa)
