@@ -65,19 +65,20 @@ Este proyecto integra múltiples sensores y actuadores conectados a través de u
                          │  • Trazabilidad de alertas   │
                          └──────────────────────────────┘
 
-## Tabla de Actuadores
+## Tabla de Sensor
 Sensor | Descripción|Foto
 |--|--|--|
 KY-039 | Sensor óptico para medir el ritmo cardíaco|![image](https://github.com/user-attachments/assets/fa940f3d-3a87-4fe1-a6e4-16acdffd07af)
 MLX90614 | Sensor de temperatura sin contacto infrarrojo|![image](https://github.com/user-attachments/assets/401c46b3-0dcc-4972-b74d-074e2b1f1a54)
-Led rojo | Led que enciende cuando la temperatura este fuera del rango |![image](https://github.com/user-attachments/assets/1a8042c5-6bd4-441e-bc11-6462eb254dec)
 
 	
-## Tabla de Sensores
+## Tabla de Actuadores
 Actuador | Función| Foto
 |--|--|--|
 Pantalla OLED | Muestra los valores en tiempo real al usuario|![image](https://github.com/user-attachments/assets/0bf009e3-ee75-4057-946a-0337d6b3d88d)
 Buzzer Pasivo | Emite sonido en caso de alerta|![image](https://github.com/user-attachments/assets/7ed74d0b-f35b-49bc-aa8b-1d033708d535)
+Led rojo | Led que enciende cuando la temperatura este fuera del rango |![image](https://github.com/user-attachments/assets/1a8042c5-6bd4-441e-bc11-6462eb254dec)
+
 
 
 ## Funcionalidad del Sistema
