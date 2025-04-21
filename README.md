@@ -1,7 +1,7 @@
 # Proyecto-Final
 
 ##  Pulsera de medición de datos biometricos
-Es una pulsera que detecta ya las pulsaciones
+Es un dispositivo portátil en forma de pulsera diseñado para monitorear en tiempo real las constantes vitales del usuario.
 
 ##  Descripción General
 Este proyecto integra múltiples sensores y actuadores conectados a través de una red de ESP32, coordinados mediante Node-RED. Incluye visualización gráfica del sistema, control manual desde un dashboard web y almacenamiento de datos históricos en PostgreSQL.
@@ -145,12 +145,65 @@ Martínez Ramírez Marco Antonio
 Ruiz Rivera Juan Diego
 
 ## Autoevaluación y coevaluación
-Balderas Melchor José Antonio
-AutoEvaluación:
-CoEvaluación:
-Martínez Ramírez Marco Antonio
-AutoEvaluación:
-CoEvaluación:
-Ruiz Rivera Juan Diego
-AutoEvaluación:
-CoEvaluación:
+Balderas Melchor José Antonio - Autoevaluación
+¿Qué hice bien?
+Intenté aportar en lo que podía, sobre todo en el montaje físico y estar disponible cuando se necesitaba apoyo. Mantuve la calma en los momentos difíciles y traté de estar presente para el equipo.
+
+¿Qué hice mal?
+No entendí bien la idea principal del proyecto al inicio y eso me hizo sentir desconectado. Además, por el cansancio y el calor, no estuve al 100% de concentración, lo que provocó que cometiera errores como dañar un sensor.
+
+¿Qué puedo mejorar?
+Debería prepararme mejor antes de llegar al proyecto para no depender tanto de la explicación en el momento. También necesito mejorar mi enfoque y cuidado al manejar componentes delicados.
+
+Por Marco y Diego
+
+¿Qué hizo bien?
+Toño trató de mantener una actitud relajada y estuvo presente durante el desarrollo del proyecto. Aportó principalmente en la parte física del armado y, a pesar del cansancio, intentó ayudar en lo que pudo.
+
+¿Qué hizo mal?
+Se notó que no comprendía bien el enfoque del proyecto desde el inicio, lo que causó cierta desconexión en los momentos clave. También, por distracción o cansancio, dañó un sensor importante, lo cual afectó la continuidad del trabajo.
+
+¿Qué puede mejorar?
+Debería involucrarse más desde el principio para entender bien lo que se va a hacer. También mejorar la concentración al manipular componentes electrónicos, ya que cualquier error puede salir costoso para el equipo.
+
+Martínez Ramírez Marco Antonio - Autoevaluación
+¿Qué hice bien?
+Me encargué de toda la parte de software y lógica del proyecto, desde la programación hasta la integración con Node-RED y PostgreSQL. Pude establecer la estructura general del sistema para que funcionara correctamente ademas junto con mi compañero Diego en la parte de la logica fue de gran ayuda ya que el sabia mas de los componentes entonces entre los dos nos ayudamos proactivamente en este aspecto.
+
+¿Qué hice mal?
+Me frustro con facilidad cuando algo no sale como lo planeo. Hubo momentos donde me desesperé y dejé de pensar con claridad en lugar de buscar soluciones con calma.
+
+¿Qué puedo mejorar?
+Quiero trabajar en mi manejo emocional y en no dejar que el estrés me paralice. También me gustaría aprender a delegar más y confiar más en mis compañeros.
+
+Por Toño y Diego
+
+¿Qué hizo bien?
+Marco fue el pilar técnico del equipo. configuró junto con Diego de Node-RED, la base de datos y manejó los sensores con gran habilidad.
+
+¿Qué hizo mal?
+A veces se desesperaba cuando algo no salía como quería. En lugar de calmarse y buscar otra opción, se frustraba y eso detenía un poco el avance. También tendía a cargar con mucho él solo, sin delegar.
+
+¿Qué puede mejorar?
+Le ayudaría mucho trabajar en la gestión del estrés y en aprender a confiar más en los demás. Tiene muchas habilidades, pero si las combina con paciencia y colaboración, el resultado sería aún mejor.
+
+Ruiz Rivera Juan Diego - Autoevaluación
+¿Qué hice bien?
+Comencé el proyecto con mucha energía, motivación y disposición. Me involucré en el trabajo técnico y traté de colaborar con las pruebas y en solucionar los problemas cuando surgieron.
+
+¿Qué hice mal?
+Cuando surgió el problema del sensor, me desanimé bastante y me fue difícil seguir con el mismo enfoque. Dejé que el estrés me afectara y eso me hizo dudar de lo que estaba haciendo.
+
+¿Qué puedo mejorar?
+Tengo que aprender a adaptarme mejor a los contratiempos. No todo va a salir perfecto, y debo mantener la calma y seguir buscando soluciones en lugar de frustrarme.
+
+Por Marco y Toño
+
+¿Qué hizo bien?
+Diego inició el proyecto con una actitud muy positiva y con muchas ganas. Participó activamente en las primeras fases y se esforzó en adaptarse a los cambios que se presentaron durante el proceso.
+
+¿Qué hizo mal?
+Cuando ocurrieron contratiempos como la quema del sensor, su motivación bajó bastante. El estrés lo afectó y eso se notó en cómo interactuaba con los demás y en su concentración.
+
+¿Qué puede mejorar?
+Diego podría enfocarse en mantener la calma y seguir adelante a pesar de los errores. La resiliencia y adaptación ante los imprevistos le permitirán avanzar más fácilmente en futuros trabajos en equipo.
