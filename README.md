@@ -200,7 +200,7 @@ Tengo que aprender a adaptarme mejor a los contratiempos. No todo va a salir per
 Por Marco y Toño
 
 ¿Qué hizo bien?
-Diego inició el proyecto con una actitud muy positiva y con muchas ganas. Participó activamente en las primeras fases y se esforzó en adaptarse a los cambios que se presentaron durante el proceso.
+Diego inició el proyecto con una actitud muy positiva y con muchas ganas. Participó activamente en las primeras fases y se esforzó en adaptarse a los cambios que se presentaron durante el proceso ademas que al final del proyecto fue el que mas se esforzo en el proyecto casi terminandolo el solo ya que algun sensor no queria funcinar y fue lo que mas nos retraso.
 
 ¿Qué hizo mal?
 Cuando ocurrieron contratiempos como la quema del sensor, su motivación bajó bastante. El estrés lo afectó y eso se notó en cómo interactuaba con los demás y en su concentración.
