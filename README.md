@@ -26,6 +26,7 @@ Este proyecto integra múltiples sensores y actuadores conectados a través de u
 
 ## 🧠 Tecnologías Utilizadas
 |Tecnología	|Descripción|
+|--|--|
 |ESP32|	Microcontroladores para lectura y actuación|
 |Node-RED	|Plataforma de automatización y dashboard web|
 |PostgreSQL|	Base de datos para almacenamiento de datos|
@@ -66,11 +67,13 @@ Este proyecto integra múltiples sensores y actuadores conectados a través de u
 
 ## Tabla de Actuadores
 Sensor | Descripción|Foto
+|--|--|--|
 KY-039 | Sensor óptico para medir el ritmo cardíaco|
 MLX90614 | Sensor de temperatura sin contacto infrarrojo|
 	
 ## Tabla de Sensores
 Actuador | Función| Foto
+|--|--|--|
 Pantalla OLED | Muestra los valores en tiempo real al usuario|
 Buzzer Pasivo | Emite sonido en caso de alerta|
 Botón | Permite interacción manual del usuario|
@@ -107,14 +110,14 @@ Proyecto en Cirkit Designer
 ## Almacenamiento de Datos
 Los datos se almacenan en una tabla PostgreSQL estructurada así:
 
-CREATE TABLE sensor_readings (
-    id SERIAL PRIMARY KEY,
-    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    temperatura FLOAT,
-    ritmo_cardiaco INTEGER,
-    spo2 INTEGER,
-    alertas TEXT[]
-);
+|Tabla||
+|--|--|
+|id| SERIAL PRIMARY KEY|
+|timestamp| TIMESTAMP DEFAULT CURRENT_TIMESTAMP|
+|Temperatura| FLOAT|
+|ritmo_cardiaco| INTEGER|
+|spo2| INTEGER|
+|alertas| TEXT[]|
 
 Esto permite:
 
