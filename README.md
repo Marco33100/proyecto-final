@@ -11,7 +11,7 @@ Este proyecto integra múltiples sensores y actuadores conectados a través de u
 --Medición de temperatura corporal con el sensor MLX90614.
 --Visualización de datos en una pantalla OLED 1.8” SPI.
 --Activación de alertas sonoras mediante un buzzer pasivo en caso de anomalías.
---Botón físico para interacción manual o reinicio de mediciones.
+--Led para la detección de temperatura anormal en el cuerpo humano.
 --Almacenamiento de datos biométricos en una base de datos PostgreSQL.
 --Gráficas en tiempo real en Node-RED Dashboard.
 --Comunicación entre módulos a través de MQTT con Mosquitto
@@ -42,7 +42,7 @@ Este proyecto integra múltiples sensores y actuadores conectados a través de u
                          │    - KY-039 (Ritmo cardíaco)  │
                          │    - MLX90614 (Temperatura)   │
                          │  • Pantalla OLED (1.8”)       │
-                         │  • Botón de interacción       │
+                         │  • Led rojo                   │
                          │  • Alerta sonora (Buzzer)     │
                          └──────────────┬────────────────┘
                                         │
@@ -68,15 +68,17 @@ Este proyecto integra múltiples sensores y actuadores conectados a través de u
 ## Tabla de Actuadores
 Sensor | Descripción|Foto
 |--|--|--|
-KY-039 | Sensor óptico para medir el ritmo cardíaco|
-MLX90614 | Sensor de temperatura sin contacto infrarrojo|
+KY-039 | Sensor óptico para medir el ritmo cardíaco|![image](https://github.com/user-attachments/assets/fa940f3d-3a87-4fe1-a6e4-16acdffd07af)
+MLX90614 | Sensor de temperatura sin contacto infrarrojo|![image](https://github.com/user-attachments/assets/401c46b3-0dcc-4972-b74d-074e2b1f1a54)
+Led rojo | Led que enciende cuando la temperatura este fuera del rango |![image](https://github.com/user-attachments/assets/1a8042c5-6bd4-441e-bc11-6462eb254dec)
+
 	
 ## Tabla de Sensores
 Actuador | Función| Foto
 |--|--|--|
-Pantalla OLED | Muestra los valores en tiempo real al usuario|
-Buzzer Pasivo | Emite sonido en caso de alerta|
-Botón | Permite interacción manual del usuario|
+Pantalla OLED | Muestra los valores en tiempo real al usuario|![image](https://github.com/user-attachments/assets/0bf009e3-ee75-4057-946a-0337d6b3d88d)
+Buzzer Pasivo | Emite sonido en caso de alerta|![image](https://github.com/user-attachments/assets/7ed74d0b-f35b-49bc-aa8b-1d033708d535)
+
 
 ## Funcionalidad del Sistema
 El sistema está basado en una pulsera que lee parámetros como el ritmo cardíaco y la temperatura corporal. Estos datos se transmiten mediante MQTT hacia un servidor donde Node-RED:
@@ -97,7 +99,6 @@ La interfaz fue desarrollada en Node-RED y permite:
 1.- Visualizar gráficas de temperatura, ritmo cardíaco y SpO2.
 2.- Revisar valores individuales en tiempo real.
 3.- Observar notificaciones o alertas de salud.
-4.- Controlar el estado del sistema de forma manual.
 
 ## Ejemplo de interfaz:
 La estructura fue diseñada para ser ligera y cómoda como una pulsera, con espacio para los sensores y pantalla OLED.
