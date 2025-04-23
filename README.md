@@ -1,5 +1,10 @@
 # Proyecto-Final
 
+## Participantes
+Jose Antonio Balderas Melchor
+Marco Antonio Martinez Ramirez
+Juan Diego Ruiz Rivera
+
 ##  Pulsera de medición de datos biometricos
 Es un dispositivo portátil en forma de pulsera diseñado para monitorear en tiempo real las constantes vitales del usuario.
 
