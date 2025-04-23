@@ -2,7 +2,9 @@
 
 ## Participantes
 Jose Antonio Balderas Melchor
+
 Marco Antonio Martinez Ramirez
+
 Juan Diego Ruiz Rivera
 
 ##  Pulsera de medición de datos biometricos
