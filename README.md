@@ -7,20 +7,31 @@ Es un dispositivo portátil en forma de pulsera diseñado para monitorear en tie
 Este proyecto integra múltiples sensores y actuadores conectados a través de una red de ESP32, coordinados mediante Node-RED. Incluye visualización gráfica del sistema, control manual desde un dashboard web y almacenamiento de datos históricos en PostgreSQL.
 
 ##  Características principales
---Detección de ritmo cardíaco usando el sensor KY-039.
---Medición de temperatura corporal con el sensor MLX90614.
---Visualización de datos en una pantalla OLED 1.8” SPI.
---Activación de alertas sonoras mediante un buzzer pasivo en caso de anomalías.
---Led para la detección de temperatura anormal en el cuerpo humano.
---Almacenamiento de datos biométricos en una base de datos PostgreSQL.
---Gráficas en tiempo real en Node-RED Dashboard.
---Comunicación entre módulos a través de MQTT con Mosquitto
+Detección de ritmo cardíaco usando el sensor KY-039.
+
+Medición de temperatura corporal con el sensor MLX90614.
+
+Visualización de datos en una pantalla OLED 1.8” SPI.
+
+Activación de alertas sonoras mediante un buzzer pasivo en caso de anomalías.
+
+Led para la detección de temperatura anormal en el cuerpo humano.
+
+Almacenamiento de datos biométricos en una base de datos PostgreSQL.
+
+Gráficas en tiempo real en Node-RED Dashboard.
+
+Comunicación entre módulos a través de MQTT con Mosquitto.
 
 ##  Objetivos del Proyecto
 --Desarrollar un sistema portátil de monitoreo de signos vitales.
+
 --Visualizar los datos de salud en tiempo real desde una interfaz gráfica web.
+
 --Generar alertas automáticas cuando se detecten valores fuera de rangos normales.
+
 --Guardar registros históricos de las mediciones en una base de datos.
+
 --Permitir la interacción del usuario mediante un botón físico y visualización OLED.
 
 
@@ -96,7 +107,9 @@ El sistema está basado en una pulsera que lee parámetros como el ritmo cardía
 La interfaz fue desarrollada en Node-RED y permite:
 
 1.- Visualizar gráficas de temperatura, ritmo cardíaco y SpO2.
+
 2.- Revisar valores individuales en tiempo real.
+
 3.- Observar notificaciones o alertas de salud.
 
 ![image](https://github.com/user-attachments/assets/5f58b3f5-b314-4abd-b369-3daa135ad183)
@@ -147,8 +160,10 @@ http://pan.jczn1688.com/directlink/1/ESP32%20module/2.4inch_ESP32-2432S024.zip
 
 ## Autores
 Integrantes:
-Balderas Melchor José Antonio//
-Martínez Ramírez Marco Antonio//
+Balderas Melchor José Antonio
+
+Martínez Ramírez Marco Antonio
+
 Ruiz Rivera Juan Diego
 
 ## Autoevaluación y coevaluación
